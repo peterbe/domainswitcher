@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href=".css"/> -->
+    <style>
+    body { margin: 5px 25px; }
+    input { width: 320px; }
+    input, button { margin: 10px; font-size: 120%; }
+    button.alternative { display: block; }
+    </style>
+  </head>
+
+<body>
+  <form>
+    <h3>Domain Switcher<span id="loading"></span></h3>
+
+    <input type="text" id="domain" value="http://localhost:8000"
+      title="Type in the protocol and domain you want to change to. E.g. 'http://localhost:5000'"
+      />
+
+    <button type="submit" name="button">Go</button>
+
+  </form>
+  <div id="alternatives" style="display:none">
+    Alternatives...
+  </div>
+<script src="choose_domain.js"></script>
+</body>
+</html>
