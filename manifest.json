@@ -17,12 +17,19 @@
       "strict_min_version": "45.0"
     }
   },
+
   "permissions": [
-    "activeTab"
+    "tabs"
   ],
-  "browser_action": {
+
+  "page_action": {
     "default_icon": "icons/icon-32.png",
     "default_title": "Domainswitcher",
     "default_popup": "choose_domain.html"
+  },
+
+  "background": {
+    "scripts": ["domainswitcher.js"]
   }
+
 }
