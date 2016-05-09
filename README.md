@@ -1,6 +1,6 @@
 # Domainswitcher
 
-**Caveat: Only works for `*.mozilla.org` and `*.mozilla.com` domains at the moment.**
+**Caveat: Only works for `*.mozilla.org` and `*.mozilla.com` domains at the moment.** See [issue #1](https://github.com/peterbe/domainswitcher/issues/1).
 
 A WebExtension to switch the current domain (and protocol) and redirect there.
 
