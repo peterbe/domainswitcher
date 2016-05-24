@@ -7,7 +7,7 @@ var urlparse = function(url) {
 var matchedDomain = function(url) {
   var domain = urlparse(url).host
   // XXX make this config. Not everyone works on mozilla websites.
-  if (/mozilla\.(org|com)$/.test(domain)) {
+  if (/(allizom|mozilla)\.(org|com)$/.test(domain)) {
     return true
   }
   return false
